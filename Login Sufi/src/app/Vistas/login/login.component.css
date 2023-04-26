@@ -1,0 +1,26 @@
+.contenido {
+   margin-top: auto;
+}
+
+.fondo1 ::ng-deep svg {
+    font-size: 3rem;
+    width: 50%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.fondo2 ::ng-deep svg {
+    font-size: 3rem;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.content {
+    z-index: 2;
+    align-items: center;
+}
